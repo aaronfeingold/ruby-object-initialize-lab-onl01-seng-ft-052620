@@ -2,8 +2,8 @@ class Person
   
    
   
-  def initialize(artist)
-    @name = artist 
+  def initialize(name)
+    @name = name  
   end
  
 
@@ -11,4 +11,4 @@ class Person
 end
 
 
-beyonce = Person.new 
+
